@@ -7,10 +7,6 @@ article {
     display: flex;
 }
 
-#información_y_contacto div{
-    
-}
-
 .information {
     float: right;
 }
@@ -33,10 +29,6 @@ form {
     width: 90%;
     width: 1000px;
     border-radius: 10px;
-}
-
-form h3 {
-    
 }
 
 form input, form textarea{
