@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3ef2fdc583.js" crossorigin="anonymous"></script>
+    <title>Información y Contacto</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../index_carrousel_styles.css">
+    <link rel="stylesheet" href="contact_form_styles.css">
+    <script defer src="../index_carrousel_functions.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="../Assets/Logo.png" alt="Alquiler Instrumentos Musicales Infrecuentes">
+        </div>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../Instrumentos en Alquiler/instrumentos_en_alquiler.html">Instrumentos en Alquiler</a></li>
+            <li><a href="../Instrumentos en Venta/instrumentos_en_venta.html">Instrumentos en Venta</a></li>
+            <li><a href="../Nuestros Usuarios Clientes/nuestros_usuarios_clientes.html">Nuestros Usuarios / Clientes</a></li>
+            <li><a href="../Servicios/servicios.html">Servicios</a></li>
+            <li><a href="#">Información y Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <article>
+            <div id="información_y_contacto">
+                <div class="container">
+                    <form action="mail.php" method="POST">
+                        <h3>Contactar
+                        </h3>
+                        <input type="text" id="name" name="name" placeholder="Nombre completo" required>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                        <input type="text" id="phone" name="phone" placeholder="Teléfono">
+                        <textarea id="message" name="message" rows="15" placeholder="Mensaje" required></textarea>
+                        <div class="política_de_privacidad">
+                            <label for="checkbox">
+                                <input type="checkbox" id="checkbox" required>
+                                Acepto la Política de Privacidad (1)
+                            </label>
+                            
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                
+                <div class="information">
+                    <h1>Información y Contacto</h1>
+                    <br>
+                    <p><b>Email: </b><a href="mailto: info@alquiler-instrumentos-musicales.com">info@alquiler-instrumentos-musicales.com</a></p><br>
+                    <p><b>Teléfono móvil: </b><a href="tel:+34 639 56 56 23">639 56 56 23</a></p><br>
+                    <p><b>Teléfono fijo: </b><a href="tel:+34 91 539 37 22">91 539 37 22</a></p><br>
+                    <p><b>Teléfono fijo: </b><a href="tel:+34 91 539 75 30">91 539 75 30</a></p>
+                    
+                    <img src="../Assets/MATallante.jpg" alt="Miguel Ángel Tallante">
+                </div> 
+            </div>
+            <p id="política_de_privacidad">(1) Política de Privacidad:<br>
+                En cumplimiento de lo dispuesto en la Ley Orgánica 15/1999 de 13 de diciembre, de Protección de Datos de Carácter Personal, la web de Alquiler y Venta de Instrumentos Musicales Infrecuentes www.alquiler-instrumentos-musicales.com (en adelante, “web”) le comunica que los datos personales facilitados por Usted a través del presente formulario se incorporarán a los ficheros de titularidad de la web, debidamente inscritos en el Registro General de Protección de Datos. La finalidad de dichos ficheros es la gestión de los clientes de la web. Dichos datos no serán cedidos ni comunicados sin el consentimiento previo del interesado, el cual podrá acceder a dicho fichero, con la finalidad de obtener información, rectificarla, cancelarla u oponerse a ella en la dirección de la web, anteriormente indicada o bien mediante correo electrónico firmado digitalmente al objeto de acreditar su identidad dirigido a info@alquiler-instrumentos-musicales.com. Usted garantiza que los datos aportados son verdaderos, exactos, completos y actualizados, siendo responsable de cualquier daño o perjuicio, directo o indirecto, que pudiera ocasionarse como consecuencia del incumplimiento de tal obligación. En el caso de que los datos aportados pertenecieran a un tercero, Usted garantiza que ha informado a dicho tercero de los aspectos contenidos en este documento y obtenido su autorización para facilitar sus datos a la web para los fines señalados.</p>
+
+            
+        </article>
+    </main>
+    <footer>
+        <div class="quick_access">
+            <h3>Acceso Rápido</h3>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Instrumentos en Alquiler/instrumentos_en_alquiler.html">Instrumentos en Alquiler</a></li>
+                <li><a href="../Instrumentos en Venta/instrumentos_en_venta.html">Instrumentos en Venta</a></li>
+                <li><a href="../Nuestros Usuarios Clientes/nuestros_usuarios_clientes.html">Nuestros Usuarios / Clientes</a></li>
+                <li><a href="../Servicios/servicios.html">Servicios</a></li>
+                <li><a href="../Información y Contacto/información_y_contacto.html">Información y Contacto</a></li>
+            </ul>
+        </div>
+        <div class="contact_info">
+            <h3>Contacto</h3>
+            <ul>
+                <li><i class="fa-solid fa-user"></i><b>Miguel Ángel Tallante</b></li>
+                <li><i class="fa-solid fa-envelope"></i>info@alquiler-instrumentos-musicales.com</li>
+                <li><i class="fa-solid fa-mobile"></i>639 56 56 23</li>
+                <li><i class="fa-solid fa-phone"></i>91 539 37 22</li>
+                <li><i class="fa-solid fa-phone"></i>91 539 75 30</li>
+                <li><i class="fa-solid fa-location-dot"></i>Las Delicias, Madrid</li>
+            </ul>
+        </div>
+        <div class="social_media">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/@matallante"><i class="fa-brands fa-youtube"></i>@matallante</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

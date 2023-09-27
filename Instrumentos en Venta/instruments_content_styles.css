@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E4DCD1;
+}
+
+header {
+    margin-top: 0;
+    margin-left: 0;
+    max-width: 1800px;
+    height: 100%;
+    margin: auto;
+    padding: 20px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style: none;
+    padding: 0px 25px;
+    font-weight: 800;
+    
+}
+
+header ul li a {
+    color: #8D6B51;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    transition: ease 300ms;
+    color: #8b572f;
+    text-decoration: none;
+}
+
+.logo {
+    width: 300px;
+}
+
+
+/** Main Body **/
+
+article {
+    margin: 50px;
+}
+
+.content {
+    margin-top: 25px;
+    display: flex;
+}
+
+#container-slider h1 {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.text {
+    margin-left: 100px;
+}
+
+.text ul li {
+    list-style: none;
+}
+
+.text ul li i{
+    font-size: smaller;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h2 {
+    font-size: 15px;
+}
+
+.column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_2 h2 {
+    font-size: 15px;
+}
+
+article img {
+    margin-right: 25px;
+}
+
+.instrument_price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text a button {
+    margin: 25px 0;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    background: none;
+    background-color: #8D6B51;
+    color: #FFFFFF;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.text a button:hover {
+    background-color: #8b572f;
+    font-weight: 650;
+}
+    
+
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 50px;
+    background-color: #d8d8d8;
+}
+
+footer div ul {
+    list-style: none;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+footer div ul li {
+    text-decoration: none;
+    color: #8D6B51;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: #8D6B51;
+}
+
+footer div ul li a:hover{
+    text-decoration: underline;
+    color: #8D6B51;
+}
+
+footer div ul li i {
+    margin-right: 5px;
+}
