@@ -1,10 +1,10 @@
 <?php
 
-$name = $_POST['name']
-$email = $_POST['email']
-$asunto = $_POST['asunto']
-$phone = $_POST['phone']
-$user_message = $_POST['message']
+$name = $_POST['name'];
+$email = $_POST['email'];
+$asunto = $_POST['asunto'];
+$phone = $_POST['phone'];
+$user_message = $_POST['message'];
 
 $recipient = "alejandrotallante@gmail.com";
 
