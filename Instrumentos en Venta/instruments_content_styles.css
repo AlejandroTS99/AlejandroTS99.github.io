@@ -60,6 +60,7 @@ article {
 .content {
     margin-top: 25px;
     display: flex;
+    justify-content: center;
 }
 
 #container-slider h1 {
@@ -119,11 +120,6 @@ article img {
     margin-right: 25px;
 }
 
-.instrument_price {
-    font-size: 18px;
-    font-weight: 700;
-}
-
 .text a button {
     margin: 25px 0;
     width: 100%;
@@ -141,6 +137,10 @@ article img {
     font-weight: 650;
 }
     
+
+
+
+
 
 footer {
     margin: auto;
